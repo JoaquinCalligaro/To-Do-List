@@ -7,11 +7,13 @@ addBtn.addEventListener('click', function () {
   const text = input.value.trim();
   const btn = document.createElement('button');
   btn.classList.add(
-    'bg-red-500',
+    'bg-gray-400',
+    'text-xs',
     'text-black',
-    'rounded-md',
+    'rounded-sm',
     'px-2',
-    'ml-2',
+    'py-1',
+    'ml-3',
     'hover:bg-red-700',
     'transition',
     'duration-400',
