@@ -23,6 +23,7 @@ Próximamente!
 ---
 📸 Capturas de pantalla
 
+Próximamente!
 
 ---
 
@@ -35,13 +36,33 @@ Próximamente!
 
 ---
 
-📂 Estructura de archivos
+📝 To-Do List App
+
+Aplicación web para gestionar tareas: agregarlas, marcarlas como hechas y eliminarlas.  
+Diseñada con buenas prácticas de estructura de archivos, usando Tailwind CSS y JavaScript moderno.
+
+---
+
+📁 Estructura del proyecto
 
 ```bash
-todo-list-app/
+TO-DO-LIST/
 │
-├── index.html          # Estructura HTML principal
-├── style.css           # Configuración Tailwind si usás modo CDN o personalizado
-├── app.js              # Lógica de la aplicación (JS)
-├── README.md           # Este archivo
-└── /assets             # Imágenes o íconos opcionales
+├── .vscode/                 # Configuración de VSCode
+│   └── settings.json
+│
+├── dist/                    # Archivos generados (CSS final)
+│   └── output.css
+│
+├── node_modules/            # Dependencias instaladas
+│
+├── src/                     # Código fuente
+│   ├── app.js               # Lógica de la app
+│   └── input.css            # Estilos base con Tailwind (directivas @tailwind)
+│
+├── index.html               # HTML principal
+├── tailwind.config.js       # Configuración de Tailwind
+├── package.json             # Dependencias y scripts
+├── package-lock.json
+└── .gitignore               # Archivos ignorados por Git
+
