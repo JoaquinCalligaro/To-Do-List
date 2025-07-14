@@ -17,8 +17,8 @@ Próximamente!
 - ✅ Agregar nuevas tareas
 - 🟢 Marcar tareas como completadas
 - 🗑️ Eliminar tareas
-- 💾 Guarda tus tareas en **localStorage**
-- 🎨 Diseño responsivo con **Tailwind CSS**
+- 💾 Guarda tus tareas en **localStorage** (en proceso)
+- 🎨 Diseño responsivo con **Tailwind CSS** (en proceso)
 
 ---
 📸 Capturas de pantalla
