@@ -310,8 +310,17 @@
   .animate-blurred-fade-in {
     animation: blurred-fade-in 0.9s ease-in-out both;
   }
+  .animate-flip-out-y {
+    animation: flip-out-y 0.6s ease-out both;
+  }
+  .animate-jelly {
+    animation: jelly 1s ease-out forwards;
+  }
   .animate-slide-in-top {
     animation: slide-in-top 0.6s ease-out both;
+  }
+  .animate-slide-rotate-out {
+    animation: slide-rotate-out 0.6s ease-out both;
   }
   .animate-zoom-in {
     animation: zoom-in 0.6s ease-out both;
@@ -931,6 +940,26 @@
     transform: scale(1);
   }
 }
+@keyframes flip-out-y {
+  0% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+}
+@keyframes slide-rotate-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px) rotate(90deg);
+  }
+}
 @keyframes blurred-fade-in {
   0% {
     filter: blur(5px);
@@ -939,6 +968,32 @@
   100% {
     filter: blur(0);
     opacity: 1;
+  }
+}
+@keyframes jelly {
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1.25, 0.75);
+  }
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+  60% {
+    transform: scale(1.15, 0.85);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+  85% {
+    transform: scale(1.05, 0.95);
+  }
+  92% {
+    transform: scale(1, 1.02);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
 @layer properties {

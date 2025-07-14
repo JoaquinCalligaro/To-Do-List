@@ -23,7 +23,11 @@ addBtn.addEventListener('click', function () {
   const textNode = document.createTextNode(text);
   btn.textContent = 'X';
   btn.addEventListener('click', function () {
-    this.parentElement.remove();
+    const li = this.parentElement;
+    li.classList.add('animate-slide-rotate-out');
+    setTimeout(() => {
+      li.remove();
+    }, 1000);
   });
   if (text.length > 0) {
     li.appendChild(textNode);
