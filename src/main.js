@@ -38,3 +38,9 @@ addBtn.addEventListener('click', function () {
     alert('Por favor ingrese un texto');
   }
 });
+
+removeBtn.addEventListener('click', function () {
+  if (confirm('Esta seguro que desea eliminar todas las tareas?')) {
+    taskList.innerHTML = '';
+  }
+});
