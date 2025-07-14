@@ -300,6 +300,10 @@
     --tw-translate-x: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-y-4 {
+    --tw-translate-y: calc(var(--spacing) * 4);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-y-full {
     --tw-translate-y: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -309,6 +313,15 @@
   }
   .animate-blurred-fade-in {
     animation: blurred-fade-in 0.9s ease-in-out both;
+  }
+  .animate-contract-vertically {
+    animation: contract-vertically 0.6s ease-out both;
+  }
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-in both;
+  }
+  .animate-fade-out {
+    animation: fade-out 0.6s ease-out both;
   }
   .animate-flip-out-y {
     animation: flip-out-y 0.6s ease-out both;
@@ -324,6 +337,9 @@
   }
   .animate-zoom-in {
     animation: zoom-in 0.6s ease-out both;
+  }
+  .animate-zoom-out {
+    animation: zoom-out 0.6s ease-out both;
   }
   .resize {
     resize: both;
@@ -531,6 +547,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-0 {
+    opacity: 0%;
   }
   .opacity-60 {
     opacity: 60%;
@@ -922,6 +941,22 @@
   syntax: "*";
   inherits: false;
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes slide-in-top {
   0% {
     transform: translateY(-20px);
@@ -938,6 +973,24 @@
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes zoom-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(.5);
+  }
+}
+@keyframes contract-vertically {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0);
   }
 }
 @keyframes flip-out-y {

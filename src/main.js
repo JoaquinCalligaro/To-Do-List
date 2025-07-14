@@ -20,20 +20,24 @@ addBtn.addEventListener('click', function () {
     'animate-zoom-in'
   );
   const li = document.createElement('li');
+
   const textNode = document.createTextNode(text);
   btn.textContent = 'X';
   btn.addEventListener('click', function () {
     const li = this.parentElement;
-    li.classList.add('animate-slide-rotate-out');
+    li.classList.remove('animate-contract-vertically');
     setTimeout(() => {
       li.remove();
-    }, 1000);
+    }, 250);
   });
   if (text.length > 0) {
     li.appendChild(textNode);
     li.appendChild(btn);
     taskList.appendChild(li);
     input.value = '';
+    setTimeout(() => {
+      li.classList.remove('opacity-0', 'translate-y-4');
+    }, 10);
   } else {
     alert('Por favor ingrese un texto');
   }
@@ -41,6 +45,14 @@ addBtn.addEventListener('click', function () {
 
 removeBtn.addEventListener('click', function () {
   if (confirm('Esta seguro que desea eliminar todas las tareas?')) {
-    taskList.innerHTML = '';
+    const allTasks = document.querySelectorAll('#taskList li');
+    allTasks.forEach((li) => {
+      li.classList.add('animate-contract-vertically');
+    });
+
+    // Prueba con diferentes tiempos
+    setTimeout(() => {
+      taskList.innerHTML = '';
+    }, 300); // Prueba con menos tiempo
   }
 });
