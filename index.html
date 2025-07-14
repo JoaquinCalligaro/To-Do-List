@@ -32,26 +32,29 @@
           placeholder="Escribí una tarea"
           class="flex-1 bg-transparent placeholder:text-black text-black text-sm border border-gray-800 rounded-md px-3 py-2 transition duration-200 ease focus:outline-none focus:border-slate-500 hover:border-gray-800 shadow-xl shadow-gray-400/50 ring-1 ring-transparent focus:ring-black"
         />
+
         <button
-          class="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-green-500 rounded hover:bg-white group py-1.5 px-2.5 animate-slide-in-top"
+          class="btn m-0.5 relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-green-500 rounded-md hover:bg-green-800 group py-2.5 px-3.5 animate-slide-in-top"
+          id="addBtn"
         >
           <span
-            class="w-56 h-48 rounded bg-green-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"
+            class="w-56 h-48 bg-green-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"
           ></span>
           <span
-            class="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-black"
+            class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-black"
             >Agregar</span
           >
         </button>
 
         <button
-          class="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-red-500 rounded hover:bg-white group py-1.5 px-2.5 animate-slide-in-top"
+          class="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-red-500 rounded-md hover:bg-red-800 group py-0.5 px-2.5 animate-slide-in-top"
+          id="removeBtn"
         >
           <span
             class="w-56 h-48 rounded bg-red-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"
           ></span>
           <span
-            class="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-black"
+            class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-black"
             >Eliminar</span
           >
         </button>
@@ -60,5 +63,6 @@
         <!-- Tareas van acá -->
       </ul>
     </div>
+    <script src="./src/main.js"></script>
   </body>
 </html>
