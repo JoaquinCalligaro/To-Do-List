@@ -52,19 +52,26 @@ TO-DO-LIST/
 ├── .vscode/                 # Configuración de VSCode
 │   └── settings.json
 │
+├── assets/                  # Recursos estáticos (imágenes, íconos, etc.)
+│   └── icons/               # Íconos de la app
+│       └── favicon.png      # Ícono para el navegador (favicon)
+│
+├── src/                     # Código fuente
+│   ├── js/                  # Scripts organizados
+│   │   ├── main.js          # Punto de entrada de la app
+│   │   └── task.js          # Módulo con funciones relacionadas a tareas
+│   └── input.css            # Estilos base con Tailwind (directivas @tailwind)
+│
 ├── dist/                    # Archivos generados (CSS final)
 │   └── output.css
 │
-├── node_modules/            # Dependencias instaladas
-│
-├── src/                     # Código fuente
-│   ├── app.js               # Lógica de la app
-│   └── input.css            # Estilos base con Tailwind (directivas @tailwind)
+├── node_modules/            # Dependencias instaladas (NO subir a Git, se instala con npm)
 │
 ├── index.html               # HTML principal
 ├── tailwind.config.js       # Configuración de Tailwind
 ├── package.json             # Dependencias y scripts
 ├── package-lock.json
 └── .gitignore               # Archivos ignorados por Git
+
 
 ```
