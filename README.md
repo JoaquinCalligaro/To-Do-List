@@ -17,10 +17,11 @@ Próximamente!
 - ✅ Agregar nuevas tareas
 - 🟢 Marcar tareas como completadas
 - 🗑️ Eliminar tareas
-- 💾 Guarda tus tareas en **localStorage** (en proceso)
+- 💾 Guarda tus tareas en **localStorage**
 - 🎨 Diseño responsivo con **Tailwind CSS** (en proceso)
 
 ---
+
 📸 Capturas de pantalla
 
 Próximamente!
@@ -66,3 +67,4 @@ TO-DO-LIST/
 ├── package-lock.json
 └── .gitignore               # Archivos ignorados por Git
 
+```
