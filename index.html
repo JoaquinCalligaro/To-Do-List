@@ -18,32 +18,32 @@
       class="w-full max-w-md px-6 py-4 shadow-xl bg-gradient-to-r from-teal-300 to-yellow-200 dark:bg-gradient-to-t dark:from-gray-900 dark:to-blue-900 rounded-xl shadow-black/50 animate-slide-in-top"
     >
       <h1
-        class="mb-4 text-4xl font-extrabold text-center text-yellow-500 dark:text-blue-600 animate-pulse duration-1000"
+        class="mb-4 text-4xl font-extrabold text-center text-yellow-500 duration-1000 dark:text-blue-600 animate-pulse"
       >
         <span></span>📝</span> To-Do List App
       </h1>
 
-      <div class="flex w-full gap-2 mb-4 overflow-hidden">
-        <input
-          id="taskInput"
-          type="text"
-          placeholder="Escribí una tarea"
-          class="flex-1 min-w-0 px-3 py-2 text-sm text-black transition duration-200 bg-transparent border border-black rounded-md shadow-xl dark:border-white dark:text-white placeholder:text-black dark:placeholder:text-white ease focus:outline-none focus:border-black dark:focus:border-white hover:border-black shadow-slate-900/35 ring-1 ring-transparent focus:ring-white"
-        />
+      <div class="flex flex-col flex-wrap w-full gap-2 mb-4 overflow-hidden sm:flex-row">
+  <input
+    id="taskInput"
+    type="text"
+    placeholder="Escribí una tarea"
+    class="flex-1 min-w-0 px-3 py-2 text-sm text-black transition duration-200 bg-transparent border border-black rounded-md shadow-xl dark:border-white dark:text-white placeholder:text-black dark:placeholder:text-white ease focus:outline-none focus:border-black dark:focus:border-white hover:border-black shadow-slate-900/35 ring-1 ring-transparent focus:ring-white"
+  />
 
         <button
-          id="addBtn"
-          class="px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-green-500 rounded-lg shadow-md cursor-pointer dark:text-white w-fit whitespace-nowrap shadow-green-500 hover:shadow-lg hover:shadow-green-500"
-        >
-          Agregar
-        </button>
+    id="addBtn"
+    class="w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-green-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-green-500 hover:shadow-lg hover:shadow-green-500"
+  >
+    Agregar
+  </button>
 
-        <button
-          id="removeBtn"
-          class="px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-red-500 rounded-lg shadow-md cursor-pointer dark:text-white w-fit whitespace-nowrap shadow-red-500 hover:shadow-lg hover:shadow-red-500"
-        >
-          Eliminar
-        </button>
+  <button
+    id="removeBtn"
+    class="w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-red-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-red-500 hover:shadow-lg hover:shadow-red-500"
+  >
+    Eliminar
+  </button>
         <button
           type="button"
           class="block font-medium text-blue-700 border-2 border-black rounded-full cursor-pointer hover:bg-gray-800 hs-dark-mode-active:hidden hs-dark-mode focus:outline-hidden focus:bg-gray-200 dark:text-neutral-200 dark:focus:bg-neutral-800"
