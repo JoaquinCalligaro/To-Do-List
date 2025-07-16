@@ -10,28 +10,6 @@
       type="image/png"
     />
     <link rel="stylesheet" href="./dist/output.css" />
-
-    <script src="https://unpkg.com/preline@latest/dist/preline.js"></script>
-    <script>
-      const html = document.querySelector('html');
-      const isLightOrAuto =
-        localStorage.getItem('hs_theme') === 'light' ||
-        (localStorage.getItem('hs_theme') === 'auto' &&
-          !window.matchMedia('(prefers-color-scheme: dark)').matches);
-      const isDarkOrAuto =
-        localStorage.getItem('hs_theme') === 'dark' ||
-        (localStorage.getItem('hs_theme') === 'auto' &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches);
-
-      if (isLightOrAuto && html.classList.contains('dark'))
-        html.classList.remove('dark');
-      else if (isDarkOrAuto && html.classList.contains('light'))
-        html.classList.remove('light');
-      else if (isDarkOrAuto && !html.classList.contains('dark'))
-        html.classList.add('dark');
-      else if (isLightOrAuto && !html.classList.contains('light'))
-        html.classList.add('light');
-    </script>
   </head>
   <body
     class="bg-white dark:bg-gray-900 text-black dark:text-white h-screen relative overflow-hidden min-h-screen flex flex-col justify-center items-center animate-slide-in-top"
@@ -130,38 +108,6 @@
 
     <script type="module" src="./src/js/main.js"></script>
     <script type="module" src="./src/js/task.js "></script>
-
-    <script>
-      function setTheme(theme) {
-        localStorage.setItem('hs_theme', theme);
-        html.classList.remove('light', 'dark');
-        html.classList.add(theme);
-
-        // Actualizar visibilidad de los botones
-        document
-          .querySelector('[data-hs-theme-click-value="dark"]')
-          .classList.toggle('hidden', theme === 'dark');
-        document
-          .querySelector('[data-hs-theme-click-value="light"]')
-          .classList.toggle('hidden', theme === 'light');
-      }
-
-      // Botones
-      document
-        .querySelector('[data-hs-theme-click-value="dark"]')
-        .addEventListener('click', () => {
-          setTheme('dark');
-        });
-
-      document
-        .querySelector('[data-hs-theme-click-value="light"]')
-        .addEventListener('click', () => {
-          setTheme('light');
-        });
-
-      // Aplicar tema guardado al cargar
-      const savedTheme = localStorage.getItem('hs_theme') || 'light';
-      setTheme(savedTheme);
-    </script>
+    <script type="module" src="./src/js/themes.js"></script>
   </body>
 </html>

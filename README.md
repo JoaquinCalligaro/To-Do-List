@@ -59,7 +59,8 @@ TO-DO-LIST/
 ├── src/                     # Código fuente
 │   ├── js/                  # Scripts organizados
 │   │   ├── main.js          # Punto de entrada de la app
-│   │   └── task.js          # Módulo con funciones relacionadas a tareas
+│   │   ├── task.js          # Módulo con funciones relacionadas a tareas
+│   │   └── themes.js        # Módulo con funciones relacionadas a temas (Dark Mode)
 │   └── input.css            # Estilos base con Tailwind (directivas @tailwind)
 │
 ├── dist/                    # Archivos generados (CSS final)
@@ -72,6 +73,5 @@ TO-DO-LIST/
 ├── package.json             # Dependencias y scripts
 ├── package-lock.json
 └── .gitignore               # Archivos ignorados por Git
-
 
 ```
