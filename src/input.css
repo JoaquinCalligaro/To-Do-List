@@ -3,11 +3,16 @@
 @plugin "@midudev/tailwind-animations";
 
 @custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  /* colores */
+  --background-image-gradient-dark: radial-gradient(
+    circle,
+    rgb(1, 1, 71) 6%,
+    rgb(0, 0, 41) 48%,
+    rgb(0, 0, 22) 95%
+  );
 
-/* @theme { */
-/* colores */
+  /* fuentes */
 
-/* fuentes */
-
-/* breakpoints */
-/* } */
+  /* breakpoints */
+}
