@@ -19,6 +19,7 @@ Próximamente!
 - 🗑️ Eliminar tareas
 - 💾 Guarda tus tareas en **localStorage**
 - 🎨 Diseño responsivo con **Tailwind CSS** (en proceso)
+- 🌙/☀️ Alternar entre **modo oscuro y claro**
 
 ---
 
