@@ -12,14 +12,14 @@ export function addTaskToDOM(task, taskList) {
   // Botón eliminar individual
   btn.textContent = 'X';
   btn.classList.add(
-    'bg-gray-400',
+    'bg-gray-100',
     'text-xs',
     'text-black',
     'rounded-sm',
     'px-2',
     'py-1',
     'ml-3',
-    'hover:bg-red-700',
+    'hover:bg-red-500',
     'transition',
     'duration-400',
     'animate-zoom-in'
