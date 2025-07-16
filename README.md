@@ -15,7 +15,7 @@ Próximamente!
 🧠 Funcionalidades
 
 - ✅ Agregar nuevas tareas
-- 🟢 Marcar tareas como completadas
+- 🟢 Marcar tareas como completadas (en proceso)
 - 🗑️ Eliminar tareas
 - 💾 Guarda tus tareas en **localStorage**
 - 🎨 Diseño responsivo con **Tailwind CSS** (en proceso)
