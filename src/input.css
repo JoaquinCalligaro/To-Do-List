@@ -2,10 +2,12 @@
 
 @plugin "@midudev/tailwind-animations";
 
-@theme {
-  /* colores */
-  --color-primary: #09f;
-  /* fuentes */
+@custom-variant dark (&:where(.dark, .dark *));
 
-  /* breakpoints */
-}
+/* @theme { */
+/* colores */
+
+/* fuentes */
+
+/* breakpoints */
+/* } */
