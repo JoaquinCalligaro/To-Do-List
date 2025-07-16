@@ -18,7 +18,7 @@ Próximamente!
 - 🟢 Marcar tareas como completadas (en proceso)
 - 🗑️ Eliminar tareas
 - 💾 Guarda tus tareas en **localStorage**
-- 🎨 Diseño responsivo con **Tailwind CSS** (en proceso)
+- 🎨 Diseño responsivo con **Tailwind CSS**
 - 🌙/☀️ Alternar entre **modo oscuro y claro**
 
 ---
