@@ -25,7 +25,15 @@ Próximamente!
 
 📸 Capturas de pantalla
 
-Próximamente!
+<img width="1359" height="629" alt="image" src="https://github.com/user-attachments/assets/afb7b969-4a29-49e9-b43f-e73122c30bf7" />
+Captura de pantalla de escritorio (modo claro)
+
+<img width="1359" height="624" alt="image" src="https://github.com/user-attachments/assets/3cb61bbc-f686-4b8f-92a6-460f32765a6d" />
+Captura de pantalla de Escritorio (modo oscuro)
+
+
+
+
 
 ---
 
