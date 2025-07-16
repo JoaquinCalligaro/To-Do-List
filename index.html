@@ -9,44 +9,51 @@
       sizes="32x32"
       type="image/png"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body
-    class="relative flex flex-col items-center justify-center h-screen min-h-screen overflow-hidden text-black bg-gradient-to-bl from-red-300 to-indigo-600 dark:bg-gradient-dark dark:text-white animate-slide-in-top"
+    class="relative flex flex-col items-center justify-center h-screen min-h-screen overflow-hidden text-black bg-gradient-to-r from-violet-600 via-violet-600 to-indigo-600 dark:bg-gradient-dark dark:text-white animate-slide-in-top"
   >
     <div
-      class="w-full max-w-md px-6 py-4 shadow-xl bg-gradient-to-r from-teal-300 to-yellow-200 dark:bg-gradient-to-t dark:from-gray-900 dark:to-blue-900 rounded-xl shadow-black/50 animate-slide-in-top"
+      class="w-full max-w-full px-6 py-4 shadow-xl sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl bg-gradient-to-r from-indigo-400 via-violet-600 to-blue-600 dark:bg-gradient-to-t dark:from-gray-900 dark:to-blue-900 rounded-xl shadow-black/50 animate-slide-in-top"
     >
       <h1
-        class="mb-4 text-4xl font-extrabold text-center text-yellow-500 duration-1000 dark:text-blue-600 animate-pulse"
+        class="mb-4 text-4xl font-extrabold text-center text-sky-400 text-shadow-black dark:text-blue-600"
       >
-        <span></span>📝</span> To-Do List App
+        <span class="mr-2">📝</span>
+        <span class="animate-pulse animate-iteration-count-infinite">
+          To-Do List App
+        </span>
       </h1>
 
-      <div class="flex flex-col flex-wrap w-full gap-2 mb-4 overflow-hidden sm:flex-row">
-  <input
-    id="taskInput"
-    type="text"
-    placeholder="Escribí una tarea"
-    class="flex-1 min-w-0 px-3 py-2 text-sm text-black transition duration-200 bg-transparent border border-black rounded-md shadow-xl dark:border-white dark:text-white placeholder:text-black dark:placeholder:text-white ease focus:outline-none focus:border-black dark:focus:border-white hover:border-black shadow-slate-900/35 ring-1 ring-transparent focus:ring-white"
-  />
+      <div
+        class="flex flex-col flex-wrap w-full gap-2 mb-4 overflow-hidden sm:flex-row"
+      >
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="Escribí una tarea"
+          class="flex-1 min-w-0 px-3 py-2 text-sm text-black transition duration-200 bg-transparent border border-black rounded-md shadow-xl dark:border-white dark:text-white placeholder:text-black dark:placeholder:text-white ease focus:outline-none focus:border-black dark:focus:border-white hover:border-black shadow-slate-900/35 ring-1 ring-transparent focus:ring-white"
+        />
 
         <button
-    id="addBtn"
-    class="w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-green-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-green-500 hover:shadow-lg hover:shadow-green-500"
-  >
-    Agregar
-  </button>
+          id="addBtn"
+          class="max-w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-green-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-green-500 hover:shadow-lg hover:shadow-green-500"
+        >
+          Agregar
+        </button>
 
-  <button
-    id="removeBtn"
-    class="w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-red-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-red-500 hover:shadow-lg hover:shadow-red-500"
-  >
-    Eliminar
-  </button>
+        <button
+          id="removeBtn"
+          class="w-full px-4 py-2 font-sans text-xs font-bold text-black uppercase transition-all bg-red-500 rounded-lg shadow-md cursor-pointer dark:text-white sm:w-fit whitespace-nowrap shadow-red-500 hover:shadow-lg hover:shadow-red-500"
+        >
+          Eliminar
+        </button>
         <button
           type="button"
-          class="block font-medium text-blue-700 border-2 border-black rounded-full cursor-pointer hover:bg-gray-800 hs-dark-mode-active:hidden hs-dark-mode focus:outline-hidden focus:bg-gray-200 dark:text-neutral-200 dark:focus:bg-neutral-800"
+          class="block font-medium border-white rounded-full cursor-pointer border-1 text-amber-500 hover:bg-gray-800 hs-dark-mode-active:hidden hs-dark-mode focus:outline-hidden focus:bg-gray-200 dark:text-neutral-200 dark:focus:bg-neutral-800"
           data-hs-theme-click-value="dark"
         >
           <span
