@@ -25,13 +25,26 @@ Próximamente!
 
 📸 Capturas de pantalla
 
+
+**Captura de pantalla de escritorio (modo claro ☀️)**
+
 <img width="1359" height="629" alt="image" src="https://github.com/user-attachments/assets/afb7b969-4a29-49e9-b43f-e73122c30bf7" />
-Captura de pantalla de escritorio (modo claro)
+
+**Captura de pantalla de Escritorio (modo oscuro 🌙)**
 
 <img width="1359" height="624" alt="image" src="https://github.com/user-attachments/assets/3cb61bbc-f686-4b8f-92a6-460f32765a6d" />
-Captura de pantalla de Escritorio (modo oscuro)
 
 
+ 
+
+  **Captura de pantalla de Movil (modo claro ☀️)**
+
+<img width="664" height="1280" alt="image" src="https://github.com/user-attachments/assets/cc205b53-a3e0-4770-8ad9-c22fd518bf97" />
+       
+
+**Captura de pantalla de Movil (modo oscuro 🌙)**
+
+<img width="668" height="1280" alt="image" src="https://github.com/user-attachments/assets/f6104f89-5a9c-4538-b471-c8ea63c46c16" />
 
 
 
