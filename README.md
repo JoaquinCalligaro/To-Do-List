@@ -43,12 +43,14 @@ Construida con **HTML**, **Tailwind CSS** y **JavaScript puro**.
 
   **Captura de pantalla de Movil (modo claro ☀️)**
 
-<img width="664" height="1280" alt="image" src="https://github.com/user-attachments/assets/cc205b53-a3e0-4770-8ad9-c22fd518bf97" />
+<img src="https://github.com/user-attachments/assets/cc205b53-a3e0-4770-8ad9-c22fd518bf97" width="250" />
+
+
        
 
 **Captura de pantalla de Movil (modo oscuro 🌙)**
 
-<img width="668" height="1280" alt="image" src="https://github.com/user-attachments/assets/f6104f89-5a9c-4538-b471-c8ea63c46c16" />
+<img src="https://github.com/user-attachments/assets/f6104f89-5a9c-4538-b471-c8ea63c46c16" width="250" />
 
 
 
