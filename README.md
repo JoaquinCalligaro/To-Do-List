@@ -16,6 +16,14 @@ Construida con **HTML**, **Tailwind CSS** y **JavaScript puro**.
 
 ---
 
+## 🎯 Aprendizajes del proyecto
+- Implementación de modo oscuro
+- Gestión de estado local
+- Componentes reutilizables
+
+
+---
+
 🧠 Funcionalidades
 
 - ✅ Agregar nuevas tareas
@@ -103,3 +111,5 @@ TO-DO-LIST/
 └── .gitignore               # Archivos ignorados por Git
 
 ```
+
+
